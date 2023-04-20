@@ -37,16 +37,13 @@
     }
   }
   .text {
-    left: 0;
     position: absolute;
+    right: 10px;
+    bottom: 50px;
     color: $font-secondary;
     text-align: right;
-    // top: 30px;
+    padding-left: 30%;
     width: 100%;
-    z-index: 2;
-    padding-top: 40%;
-    padding-left: 100px;
-    padding-right: 5px;
     font-size: $font-m;
     line-height: 25px;
   }
