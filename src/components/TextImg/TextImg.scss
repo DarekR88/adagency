@@ -48,43 +48,41 @@
     }
   }
   .text {
+    width: 100%;
+    position: absolute;
+    line-height: 25px;
+    font-size: $font-s;
     &.right {
-      position: absolute;
-      right: 10px;
-      bottom: 50px;
+      right: 15px;
+      bottom: 20px;
       color: $font-secondary;
       text-align: right;
       padding-left: 30%;
       width: 100%;
-      font-size: $font-m;
-      line-height: 25px;
     }
     &.left {
-      position: absolute;
-      left: 20px;
-      bottom: 50px;
+      left: 15px;
+      bottom: 20px;
       color: $font-primary;
       text-align: left;
       padding-right: 30%;
       width: 100%;
-      font-size: $font-m;
-      line-height: 25px;
     }
   }
   .text-img-btn {
     background: rgb(194, 194, 194);
     color: $font-primary;
     font-size: $font-s;
+    position: absolute;
     padding: 10px;
+    bottom: 20px;
     &.right {
-      position: absolute;
       left: 20px;
-      bottom: 10px;
+
     }
     &.left {
-      position: absolute;
       right: 20px;
-      bottom: 10px;
+
     }
   }
 

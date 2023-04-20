@@ -29,6 +29,7 @@
   }
   .home-title {
     left: 10px;
+    padding-top: 20px;
     position: absolute;
     font-size: $font-xl;
     color: $font-secondary;
@@ -41,7 +42,7 @@
   }
   .img-blurb {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     right: 10px;
     padding-left: 30%;
     font-size: $font-l;
@@ -64,7 +65,7 @@
   .line-top {
     height: 5px;
     background: black;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-right: 75%;
   }
