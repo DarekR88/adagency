@@ -12,7 +12,7 @@ const Home = () => {
     <div className="home" id="home">
       <div className="home-banner">
         <img className="home-img" src={meetingImg} alt="meeting image" />
-        <h1 className="home-title"></h1>
+        <h1 className="home-title">Great Ad</h1>
         <h2 className="img-blurb">
           Complete marketing solutions for the social media world
         </h2>
@@ -26,7 +26,6 @@ const Home = () => {
           </p>
           <div className="line-bottom"></div>
         </div>
-
         <div className="home-offerings">
           <img className="offerings-img" src={websiteImg} />
           <h2 className="offerings-title">Websites</h2>
