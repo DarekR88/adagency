@@ -40,7 +40,7 @@ const Home = () => {
             background="white"
             imgSrc={socialImg}
             color="black"
-            title="Social Media Campaign"
+            title="Social Media"
             text="Custom posts across all social media"
             side="left"
           />
