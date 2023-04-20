@@ -17,43 +17,78 @@
     object-position: center center;
 
     @media (min-width: $lg) {
-
     }
   }
   .title {
-    left: 0;
-    position: absolute;
-    color: $font-secondary;
-    text-align: left;
-    // top: 30px;
-    width: 100%;
-    z-index: 2;
-    margin-left: 5px;
-    margin-top: 20px;
-    // text-align: center;
-    font-size: $font-l;
-    @media (min-width: $lg) {
-      font-size: 4rem;
+    &.right {
+      left: 15px;
+      position: absolute;
+      color: $font-secondary;
+      // text-align: left;
+      // top: 30px;
+      width: 100%;
+      z-index: 2;
+      margin-top: 20px;
+      // text-align: center;
+      font-size: $font-l;
+      @media (min-width: $lg) {
+        font-size: 4rem;
+      }
+    }
+    &.left {
+      color: black;
+      right: 15px;
+      position: absolute;
+      color: $font-primary;
+      margin-top: 20px;
+      font-size: $font-l;
+      @media (min-width: $lg) {
+        font-size: 4rem;
+      }
     }
   }
   .text {
-    position: absolute;
-    right: 10px;
-    bottom: 50px;
-    color: $font-secondary;
-    text-align: right;
-    padding-left: 30%;
-    width: 100%;
-    font-size: $font-m;
-    line-height: 25px;
+    &.right {
+      position: absolute;
+      right: 10px;
+      bottom: 50px;
+      color: $font-secondary;
+      text-align: right;
+      padding-left: 30%;
+      width: 100%;
+      font-size: $font-m;
+      line-height: 25px;
+    }
+    &.left {
+      position: absolute;
+      left: 20px;
+      bottom: 50px;
+      color: $font-primary;
+      text-align: left;
+      padding-right: 30%;
+      width: 100%;
+      font-size: $font-m;
+      line-height: 25px;
+    }
   }
   .text-img-btn {
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
     background: rgb(194, 194, 194);
     color: $font-primary;
     font-size: $font-s;
     padding: 10px;
+    &.right {
+      position: absolute;
+      left: 20px;
+      bottom: 10px;
+    }
+    &.left {
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+    }
   }
+
+  // &.black {
+  //   background: black;
+  // }
 }

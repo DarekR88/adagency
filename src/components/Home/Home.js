@@ -34,6 +34,7 @@ const Home = () => {
             color="white"
             title="Websites"
             text="Custom websites for the modern internet"
+            side="right"
           />
           <TextImg
             background="white"
@@ -41,6 +42,7 @@ const Home = () => {
             color="black"
             title="Social Media Campaign"
             text="Custom posts across all social media"
+            side="left"
           />
           <TextImg
             background="black"
@@ -48,6 +50,7 @@ const Home = () => {
             color="white"
             title="Branding"
             text="Up your brand recognition"
+            side="right"
           />
           <TextImg
             background="white"
@@ -55,6 +58,7 @@ const Home = () => {
             color="black"
             title="Paper"
             text="Paper campaign based on your branding"
+            side="left"
           />
         </div>
       </div>

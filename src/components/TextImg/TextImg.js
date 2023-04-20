@@ -5,13 +5,13 @@ const TextImg = (props) => {
   return (
     <div className="text-img" style={{ background: props.background }}>
       <img className="br-img" src={props.imgSrc} alt="image description" />
-      <h1 className="title" style={{ color: props.color }}>
+      <h1 className={`title ${props.side}`}>
         {props.title}
       </h1>
-      <p className="text" style={{ color: props.color }}>
+      <p className={`text ${props.side}`}>
         {props.text}
       </p>
-      <button className="text-img-btn">Learn more</button>
+      <button className={`text-img-btn ${props.side}`}>Learn more</button>
     </div>
   );
 };
