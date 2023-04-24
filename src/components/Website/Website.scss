@@ -1,0 +1,22 @@
+@import "../../Global.scss";
+
+.website {
+  .intro{
+    height: 75vh;
+    background: green;
+    .intro-img {
+      width: 300px;
+    }
+  }
+
+  .pricing {
+    height: 75vh;
+    background: yellow;
+  }
+
+  .process {
+    height: 75vh;
+    background: pink;
+  }
+
+}
