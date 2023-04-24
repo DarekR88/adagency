@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className="header">
       <Hamburger isOpen={isSideDrawerOpen} click={toggleDrawer} />
-      <SideMenu isOpen={isSideDrawerOpen} />
+      <SideMenu isOpen={isSideDrawerOpen} click={toggleDrawer} />
       <Backdrop isOpen={isSideDrawerOpen} click={toggleDrawer} />
     </header>
   );
