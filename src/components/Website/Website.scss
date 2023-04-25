@@ -1,9 +1,13 @@
 @import "../../Global.scss";
 
 .website {
+  margin-top: 75px;
   .intro{
     height: 75vh;
     background: green;
+    .intro-title {
+      padding-top: 50px;
+    }
     .intro-img {
       width: 300px;
     }
