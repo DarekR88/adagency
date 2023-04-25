@@ -3,7 +3,7 @@
 .website {
   margin-top: 75px;
   .intro{
-    height: 75vh;
+    min-height: 75vh;
     background: green;
     .intro-title {
       padding-top: 50px;
@@ -14,13 +14,48 @@
   }
 
   .pricing {
-    height: 75vh;
+    // padding-top: 25px;
+    min-height: 75vh;
     background: yellow;
+    .pricing-title {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: $font-xl;
+    }
+    .pricing-intro {
+      font-size: $font-m;
+      padding: 20px 25px;
+      line-height: 30px;
+    }
+    .breakdown {
+      padding: 20px 40px;
+      .service {
+        .pricing-text {
+          font-size: $font-l;
+        }
+        .price {
+          font-size: $font-m;
+        }
+      }
+    }
   }
 
   .process {
-    height: 75vh;
+    min-height: 75vh;
     background: pink;
+    .process-title {
+      font-size: $font-xl;
+      padding-left: 20px;
+    }
+    .card {
+      padding: 20px 35px;
+      .card-title {
+        font-size: $font-l;
+      }
+      .card-text {
+        font-size: $font-m;
+      }
+    }
   }
 
 }

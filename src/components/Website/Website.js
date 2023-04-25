@@ -20,8 +20,8 @@ const Website = () => {
       <img className='intro-img' src={websiteImg}/>
     </div> */}
       <div className="pricing">
-        <h1>Website Design and Development</h1>
-        <p>
+        <h1 className="pricing-title">Website Design and Development</h1>
+        <p className="pricing-intro">
           Websites can vary in scope and complexity. We work with you to
           maximize your budget. From single page websites designed to advertise
           your service, or a full blown e-commerce website, we've got you
@@ -30,35 +30,40 @@ const Website = () => {
           website you need to take your small business to the next level. Our
           experts will deliver a final product that you can be proud of.
         </p>
-        <div className="single">
-          <p>Single page websites starting at:</p>
-          <p>
-            $700<span>.00</span>
-          </p>
-          <p>Time-frame: 2-4 weeks</p>
-        </div>
-        <div className="multi">
-          <p>Multiple page websites starting at:</p>
-          <p>
-            $2000<span>.00</span>
-          </p>
-          <p>Time-frame: 4-8 weeks</p>
-        </div>
-        <div className="e-commerce">
-          <p>E-commerce and member functionality websites starting at:</p>
-          <p>
-            $4000<span>.00</span>
-          </p>
-          <p>Time-frame: 6-10 weeks</p>
+        <div className="breakdown">
+          <div className="service">
+            <p className="pricing-text">Single page websites starting at:</p>
+            <p className="price">
+              $700<span className="cents">.00</span>
+            </p>
+            <p className="time">Time-frame: 2-4 weeks</p>
+          </div>
+          <div className="service">
+            <p className="pricing-text">Multiple page websites starting at:</p>
+            <p className="price">
+              $1500<span className="cents">.00</span>
+            </p>
+            <p className="time">Time-frame: 4-8 weeks</p>
+          </div>
+          <div className="service">
+            <p className="pricing-text">
+              E-commerce and member functionality websites starting at:
+            </p>
+            <p className="price">
+              $4000<span className="cents">.00</span>
+            </p>
+            <p className="time">Time-frame: 6-10 weeks</p>
+          </div>
         </div>
       </div>
       <div className="process">
+        <h1 className="process-title">Our Process</h1>
         <div className="card">
           <h2 className="card-title">Consultation</h2>
           <p className="card-text">
             Getting to know you and what you need is very important for creating
             an authentic website. During the consultation process we will find
-            out what kind of website you need and all relevant branding.
+            out what kind of website you need and go over all relevant branding.
           </p>
         </div>
         <div className="card">
@@ -80,7 +85,8 @@ const Website = () => {
         <div className="card">
           <h2 className="card-title">Delivery and Maintenance</h2>
           <p className="card-text">
-            Once your website is finished we have multiple options for your convenience. 
+            Once your website is finished we have multiple options for your
+            convenience.
           </p>
         </div>
         <div className="how">
