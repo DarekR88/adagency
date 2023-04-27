@@ -27,30 +27,25 @@ const Website = () => {
           your service, or a full blown e-commerce website, we've got you
           covered. SEO &#40;Search Engine Optimization&#41; will ensure your
           business shows up when searched for online. Let us know what kind of
-          website you need to take your small business to the next level. Our
+          website you need to take your business to the next level. Our
           experts will deliver a final product that you can be proud of.
         </p>
         <div className="breakdown">
           <div className="service">
-            <p className="pricing-text">Single page websites starting at:</p>
-            <p className="price">
-              $700<span className="cents">.00</span>
+            <p className="pricing-text">
+              Single page websites starting at: 700
             </p>
-            <p className="time">Time-frame: 2-4 weeks</p>
-          </div>
-          <div className="service">
-            <p className="pricing-text">Multiple page websites starting at:</p>
-            <p className="price">
-              $1500<span className="cents">.00</span>
-            </p>
-            <p className="time">Time-frame: 4-8 weeks</p>
+            <p className="time m">Time-frame: 2-4 weeks</p>
           </div>
           <div className="service">
             <p className="pricing-text">
-              E-commerce and member functionality websites starting at:
+              Multiple page websites starting at: $1500
             </p>
-            <p className="price">
-              $4000<span className="cents">.00</span>
+            <p className="time m">Time-frame: 4-8 weeks</p>
+          </div>
+          <div className="service">
+            <p className="pricing-text">
+              E-commerce and member functionality websites starting at: $4000
             </p>
             <p className="time">Time-frame: 6-10 weeks</p>
           </div>
@@ -88,9 +83,6 @@ const Website = () => {
             Once your website is finished we have multiple options for your
             convenience.
           </p>
-        </div>
-        <div className="how">
-          <p>To get started send us a message.</p>
         </div>
       </div>
     </div>

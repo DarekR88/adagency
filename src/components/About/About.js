@@ -11,10 +11,8 @@ const About = () => {
           experts refine your advertising. In a world full of competition,
         </p>
       </div>
-      <div className="story">
-      </div>
-      <div className="why">
-      </div>
+      <div className="story"></div>
+      <div className="why"></div>
     </div>
   );
 };
