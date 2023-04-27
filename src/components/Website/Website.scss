@@ -59,11 +59,14 @@
     background: pink;
     .process-title {
       padding-top: 20px;
-      font-size: $font-xl;
       padding-left: 20px;
+      padding-bottom: 15px;
+      font-size: $font-xl;
     }
     .card {
-      padding: 20px 35px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 20px;
       .card-title {
         font-size: $font-l;
       }
@@ -72,4 +75,33 @@
       }
     }
   }
+
+  .delivery {
+    padding-top: 20px;
+    .delivery-title {
+      font-size: $font-xl;
+      padding-left: 20px;
+    }
+    .options {
+      padding-top: 15px;
+      padding-left: 35px;
+      padding-right: 35px;
+      .option-card {
+        padding-bottom: 15px;
+        .option-title {
+          font-size: $font-l;
+          padding-bottom: 5px;
+        }
+        .option-text {
+          font-size: $font-m;
+        }
+        .cost {
+          font-size: $font-l;
+          .month {
+            font-size: $font-m;
+          }
+        }
+      }
+    }
+  }  
 }

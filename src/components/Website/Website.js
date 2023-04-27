@@ -27,8 +27,8 @@ const Website = () => {
           your service, or a full blown e-commerce website, we've got you
           covered. SEO &#40;Search Engine Optimization&#41; will ensure your
           business shows up when searched for online. Let us know what kind of
-          website you need to take your business to the next level. Our
-          experts will deliver a final product that you can be proud of.
+          website you need to take your business to the next level. Our experts
+          will deliver a final product that you can be proud of.
         </p>
         <div className="breakdown">
           <div className="service">
@@ -83,6 +83,30 @@ const Website = () => {
             Once your website is finished we have multiple options for your
             convenience.
           </p>
+        </div>
+      </div>
+      <div className="delivery">
+        <h1 className="delivery-title">Delivery Options</h1>
+        <div className="options">
+          <div className="option-card ">
+            <h2 className="option-title">Hand Off</h2>
+            <p className="option-text">
+              This option is for people who feel confident in managing their own
+              website after it's been set up for them.
+            </p>
+          </div>
+          <div className="option-card ">
+            <h2 className="option-title">Maintain and Update</h2>
+            <p className="option-text">
+              For a low monthly fee we can maintain and update your website for
+              you.
+            </p>
+            <p className="cost">
+              Maintenance plans starting at: $20
+              <span className="month">/month</span>
+            </p>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
