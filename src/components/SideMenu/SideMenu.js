@@ -22,6 +22,11 @@ const SideMenu = ({ isOpen, click }) => {
               Website
             </NavLink>
           </li>
+          <li onClick={click}>
+            <NavLink className="drawer-nav-buttons" to="/Paper">
+              Paper
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>

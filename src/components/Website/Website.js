@@ -14,11 +14,6 @@ const Website = () => {
         text="Make your business stand out with a modern professionally designed website."
         side="right"
       />
-      {/* <div className='intro'>
-      <h1 className='intro-title'>Dynamic Websites for the Modern Internet</h1>
-      <p>Make your business stand out with a modern professionally designed website.</p>
-      <img className='intro-img' src={websiteImg}/>
-    </div> */}
       <div className="pricing">
         <h1 className="pricing-title">Website Design and Development</h1>
         <p className="pricing-intro">
