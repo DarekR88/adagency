@@ -6,9 +6,10 @@ const About = () => {
     <div className="about">
       <div className="intro">
         <p>
-          At AdCo we provide the highest quality service to meet your budget.
-          Advertising for your business can be complicated and tedious. Let our
-          experts refine your advertising. In a world full of competition,
+          At AdCo we provide the highest quality service at a value you can
+          appreciate. Advertising for your business can be complicated and
+          tedious. Let our experts refine your advertising. In a world full of
+          competition,
         </p>
       </div>
       <div className="story"></div>
