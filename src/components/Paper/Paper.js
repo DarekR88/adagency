@@ -21,6 +21,16 @@ const Paper = () => {
           business's intended clientele to maximize your investment.
         </p>
       </div>
+      <div className="offers">
+        <div className="offer-card">
+          <h2 className="offer-title">Mailers</h2>
+          <p className="offer"></p>
+        </div>
+        <div className="offer-card">
+          <h2 className="offer-title"></h2>
+          <p className="offer"></p>
+        </div>
+      </div>
     </div>
   );
 };
